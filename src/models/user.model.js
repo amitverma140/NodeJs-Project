@@ -17,13 +17,13 @@ const userSchema = new Schema({
         lowercase: true,
         trim: true
     },
-    fulName: {
+    fullName: {
         type: String,
         required: true,
         trim: true,
         index: true
     },
-    avtar: {
+    avatar: {
         type: String, //Cloudinary URL
         required: true
     },
